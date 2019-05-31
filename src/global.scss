@@ -9,3 +9,17 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+.justify-content-center{
+    display:flex;
+    justify-content: center;
+  }
+  .bg-twitter-primary{
+    background-color:  #1da1f2;
+    }
+  .twitter-primary{
+    color: #1da1f2;
+  }
+  ion-content{
+    --ion-background-color: #15202b !important;
+}

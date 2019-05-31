@@ -1,13 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      ALERTA
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content padding>
-  <ion-button (click)="exibiralerta()">
-    Abrir alerta</ion-button>
-
+  <div class="justify-content-center">
+    <ion-icon name="logo-twitter" size="large" class="twitter-primary"></ion-icon>
+  </div>
+  <div class="vh-75">
+    <ion-row>
+      <ion-col size="8">
+        <h3 class="home-title">Veja exatamente o que está acontecendo no mundo neste momento.</h3>
+      </ion-col>
+    </ion-row>
+    <ion-button shape="round">Criar conta</ion-button>
+  </div>
+  <div class="footer">
+    <p>
+      <small>
+        Já tem uma conta?
+        <ion-button fill="clear" [routerLink]="['/login']">Entrar</ion-button>
+      </small>
+    </p>
+  </div>
 </ion-content>

@@ -1,1 +1,27 @@
-
+ion-content{
+    --ion-background-color: #15202b !important;
+}
+ion-button{
+    --ion-color-primary:#1da1f2;
+}
+ .vh-75{
+    height: 75vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .home-title{
+      font-weight: 700;
+      color: white;
+      
+  }
+  .footer{
+      position: absolute;
+      bottom:0;
+      color: darkgray;
+      small{
+          color:#e4e4e4;
+          display:flex;
+          align-items: center;
+      }
+  }
